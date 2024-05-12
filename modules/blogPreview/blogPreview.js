@@ -15,9 +15,9 @@ class BlogPreview{
     //inicio
     init(){
         
-       return document.getElementById('app').innerHTML=`
+       return document.getElementById('app').innerHTML+=`
 
-       <section id = 'blogPreview'>
+       <section class = 'blogPreview'>
          <div class="box">
                 <img id="princ" src="./modules/blogPreview/img/illustration-article.svg"/>
 
