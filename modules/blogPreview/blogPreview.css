@@ -14,14 +14,13 @@
 
 @font-face{
     font-family: 'Figtree-VariableFont';
-    src:url("../blogPreview/font/Figtree-Italic-VariableFont_wght.ttf")
+    src:url(../blogPreview/font/Figtree-Italic-VariableFont_wght.ttf);
 
 }
 
 @font-face{
     font-family: 'Figtree-ExtraBold';
-    src: url("../blogPreview/font/Figtree-ExtraBold.ttf");
-
+    src: url(../blogPreview/font/Figtree-ExtraBold.ttf);
 }
 
 
