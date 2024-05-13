@@ -13,36 +13,12 @@ document.querySelector("body").style.padding = "0";
 
 
 /*Alinhamentos padrões*/
-document.getElementById("app").style.width = "100%";
-document.getElementById("app").style.minHeight = "100vh";
-document.getElementById("app").style.display = "flex";
-document.getElementById("app").style.backgroundColor = "yellow";
-document.getElementById("app").style.justifyContent = "center";
-document.getElementById("app").style.alignItems = "center";
-document.getElementById("app").style.flexWrap = "wrap";
-document.getElementById("app").style.gap = "10px";
-document.getElementById("app").style.fontFamily = "arial";
-
-
-
-
-
-//dados da tela do usuario
-const alturaTela = window.innerHeight;
-const larguraTela = window.innerWidth;
-
-//exemplos
-//const alturaHeader = document.querySelector("body > header").offsetHeight;
-//console.log("altura do header:"+ alturaHeader);
-
-
-//const alturaSectionInicial =  altura - alturaHeader;
-//document.querySelector("body > article > section").style.height = alturaSectionInicial+"px";
-
-
-
-
-
-
-
-
+document.querySelector("body > main").style.width = "100%";
+document.querySelector("body > main").style.minHeight = "100vh";
+document.querySelector("body > main").style.display = "flex";
+document.querySelector("body > main").style.backgroundColor = "yellow";
+document.querySelector("body > main").style.justifyContent = "center";
+document.querySelector("body > main").style.alignItems = "center";
+document.querySelector("body > main").style.flexWrap = "wrap";
+document.querySelector("body > main").style.gap = "10px";
+document.querySelector("body > main").style.fontFamily = "arial";

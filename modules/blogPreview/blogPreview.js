@@ -15,11 +15,11 @@ class BlogPreview{
     //inicio
     init(){
         
-       return document.getElementById('app').innerHTML+=`
+       return document.querySelector("body > main").innerHTML+=`
 
-       <section class = 'blogPreview'>
+       <article class = 'blogPreview'>
          <div class="box">
-                <img id="princ" src="./modules/blogPreview/img/illustration-article.svg"/>
+                <img id="princ" src="./modules/blogPreview/img/illustration-article.svg" alt="imagem contendo uma arte" title="imagem contendo uma arte"/>
 
             <div class="boxText">
                 <span>Learning</span>
@@ -30,7 +30,7 @@ class BlogPreview{
             </div>
 
             <div class="autor">
-                <img src="./modules/blogPreview/img/image-avatar.webp"/>
+                <img src="./modules/blogPreview/img/image-avatar.webp" alt="autor Greg Hooper" title="autor: Greg Hooper/>
                 <h3>Greg Hooper</h3>
             </div>
             
